@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore folders
+pong-env/
+pong_env/__pycache__/
+
+# Ignore other potential files
+*.log
+*.bak
+*.swp
+*.swo
+*.tar.gz
+*.zip
+
+# Ignore model checkpoints and other generated files
+checkpoint.pth
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
